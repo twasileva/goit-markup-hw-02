@@ -6,6 +6,7 @@
   --white-text-color: rgb(255, 255, 255);
   --white-text-color-op: rgba(255, 255, 255, 0.6);
   --gray-button-portfolio: rgb(245, 244, 250);
+  --hero-footer-main-page: rgb(47, 48, 58);
 }
 
 body {
@@ -57,6 +58,10 @@ h3 {
   color: var(--logo-text-color);
 }
 
+.nav-items.current {
+  color: var(--logo-text-color);
+}
+
 /* Контакты в шапке */
 .nav-contacts {
   color: var(--paragraph-text-color);
@@ -73,9 +78,12 @@ h3 {
 }
 
 /* Оформление героя */
+.hero {
+  background-color: var(--hero-footer-main-page);
+}
+
 .hero-hidden {
   color: var(--white-text-color);
-  background-color: gray; /* временно для отображения белого цвета   */
 
   font-weight: 900;
   font-size: 44px;
@@ -149,6 +157,10 @@ h3 {
 }
 
 /* Оформление футера */
+.footer {
+  background-color: var(--hero-footer-main-page);
+}
+
 .footer-logo {
   font-family: Raleway, sans-serif;
 
@@ -158,7 +170,6 @@ h3 {
 
 .footer .footer-logo {
   color: var(--white-text-color);
-  background-color: gray; /*  временно для отображения белого цвета  */
 }
 
 .footer-address {
@@ -168,12 +179,10 @@ h3 {
 
 .footer-address p {
   color: var(--white-text-color);
-  background-color: gray; /*  временно для отображения белого цвета  */
 }
 
 .footer-address .footer-contacts {
   color: var(--white-text-color-op);
-  background-color: gray; /*   временно для отображения белого цвета  */
   font-style: normal;
 }
 
