@@ -137,10 +137,14 @@ h3 {
 }
 
 .works-hidden {
-  font-weight: bo700ld;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+
+.team {
+  background-color: var(--gray-button-portfolio);
 }
 
 .team h3 {
